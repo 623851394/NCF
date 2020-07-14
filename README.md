@@ -3,7 +3,7 @@ He Xiangnan 2017 Neural Collaborative Filtering
 
 http://dx.doi.org/10.1145/3038912.3052569
 
-# introduce
+# Introduce
 
 ## 此代码不和源码一致，
   1、提取数据，获取训练数据正样本以及负采样。负采样比例 默认50。如需，可修改DataExtract.py中load_user_item()函数中negative_num。
