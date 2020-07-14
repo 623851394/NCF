@@ -29,7 +29,7 @@ def evaluate_HQ(get_items, label):
 
 def parse_agrs():
     parser = argparse.ArgumentParser(description="Run NCf")
-    parser.add_argument('--path', nargs='?', default='D:/GoogleDownload/ml-100k/u1.base',
+    parser.add_argument('--path', nargs='?', default='./u1.base',
                        help='Input data path, the content format must be [userid, itemid, rate, timestep].')
     parser.add_argument('--epochs', type=int, default=101,
                        help='Numbers of epochs.')
